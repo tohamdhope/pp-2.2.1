@@ -12,7 +12,7 @@ import java.util.List;
 public class UserDaoImp implements UserDao {
 
    @Autowired
-   private final SessionFactory sessionFactory;
+   private SessionFactory sessionFactory;
 
    public UserDaoImp(SessionFactory sessionFactory) {
       this.sessionFactory = sessionFactory;
